@@ -1,0 +1,146 @@
+.topnav {
+    background-color:#6A5ACD;
+    overflow: hidden;
+
+
+   
+
+    
+
+  }
+  .forms{
+      text-align: center;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+   
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+
+  }
+  
+ 
+  /* Add a color to the active/current link */
+  
+  input[type=text] {
+    padding: 12px 10px;
+    margin: 8px 10px;
+    float: right;
+  }
+  input[type=password] {
+    padding: 12px 10px;
+    margin: 8px 10px;
+    float: right;
+  }
+  .button{
+      text-align: center;
+  }
+  .button1{
+      border-radius: 50%;
+      font-size: medium;
+      padding: 10px 8px;
+      outline: 0;
+  }
+  .button2{
+      border-radius: 50%;
+      font-size: medium;
+      padding: 10px 8px;
+      outline: 0;
+
+  }
+  body{
+      
+      margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: lightgray;
+    
+}
+  
+  .topnav-right{
+      float: right;
+      display: inline-block;
+  }
+.section-default{
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    border: 3px; 
+
+    
+}
+/* Style inputs */
+/* CONTROL  EBERYTHING OUTSIDE OF THE WHITE BOX BUT BELOW THE NAV BAR*/
+
+.wrapper-main{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+/* CHANGE THE WHITE BOX SIZE */
+.section-default{
+    width: 50%;
+    padding: 10px 10px;
+    margin: 0px 300px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+/* THIS CONTROLS EVERYTHING INSIDE THE WHITE BOX */
+.forms2{
+    width: 75%;
+    padding-left: 50px;
+    padding-right: 50px;
+
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  
+}
+/* THIS END THE FORM ON THE SIGN UP PAGE */
+/* START OF THE BUTTON ON THE SIGN UP PAGE */
+.button3{
+    width: 25%;
+    background-color: black;
+    
+  padding: 12px 20px;
+  color: white;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+
+}
+
+/* CONTROL THE FORM TAGS */
+.Username2{
+    
+    background-color: #f5f5f5;
+    
+}
+.Password2{
+    background-color: #f5f5f5;
+    
+
+
+}
+
+  
+  
+
