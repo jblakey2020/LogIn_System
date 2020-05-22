@@ -16,9 +16,7 @@ require "header.php";
            <input class="Password2" type="password" name="pwd" placeholder="Password">
            <input class="Password2" type="password" name="pwd-repeat" placeholder="Repeat Password">
           
-           <button class="button3" type="submit" name="signup-submit">SignUp</button>
-
-
+           <button   class="button3" type="submit" name="signup-submit">SignUp</button>
 
         </form>
         </div>

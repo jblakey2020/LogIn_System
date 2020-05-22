@@ -1,5 +1,5 @@
 <?php
-$emailErr = "";
+
 if (isset($_POST['signup-submit'])){
     require 'dbh.inc.php';
 
@@ -10,10 +10,14 @@ if (isset($_POST['signup-submit'])){
     $passwordRepeat = $_POST['pwd-repeat'];
 
     if(empty($username) || empty($email) || empty($password) || empty($password)){
-        header("Location: ../signup.php?error=emptyfield&uid=".$username."&mail=".$email);
+        header("Location: ../signup.php");
+
+    
         exit();
     }else if(!filter_var($email,FILTER_VALIDATE_EMAIL) && !preg_match("/^[a-zA-Z0-9]*$/",$username)){
         header("Location: ../signup.php?error=invalidmailuid");
+        
+
         exit();
     }else if(!filter_var($email,FILTER_VALIDATE_EMAIL)){
         header("Location: ../signup.php?error=invalidmail&uid=".$username);
